@@ -8,17 +8,25 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         // Ejecuta el ejemplo de uso de HashMap con ejemplos sencillos
-        runMapExamlpe();
+       
+        //runMapExamlpe();
+           
 
         // Ejecuta el ejemplo de gestión de empleados usando HashMap
         runEmpleadoExample();
 
         // Ejecuta los ejercicios de sumatoria y anagramas
-        runEjerccios();
+        //runEjerccios();
     }
 
     private static void runEmpleadoExample() {
-        throw new UnsupportedOperationException("Not implemented yet");
+        System.out.println("Nombre: Cristian Moscoso");
+        Mapa mapa= new Mapa();
+        mapa.ejemploConLinkedHashMap();
+        mapa.ejemploConTreeMap();
+        mapa.ejemploConHashMap();
+
+        
     }
 
     private static void runMapExamlpe() {

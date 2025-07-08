@@ -8,6 +8,7 @@ import models.Empleado;
 public class EmpleadoContoller {
 
     public EmpleadoContoller() {
+        
 
     }
 }

@@ -49,7 +49,7 @@ public class Mapa {
 
             System.out.println("--------");
             for(Map.Entry<Empleado, Integer> entry : empleadosDos.entrySet()){
-                System.out.println("Clave: " + entry.getKey() + "valor: "+ entry.getValue());
+                System.out.println(" Clave: " + entry.getKey() + " valor: "+ entry.getValue());
             }
 
 
